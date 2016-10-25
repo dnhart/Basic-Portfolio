@@ -8,12 +8,13 @@
 </head>
   <body>
   <div class="wrapper">
-  	<!--Top header and navigation menu -->
+<!--Top header and navigation menu -->
+  	<div class="headercontainer"> <!--full width div -->
  	<div  id="header">
 		<div class="nameplate">
 			<h1>D'Ann Hart</h1>
 		</div>
-<!--Top navigation menu -->
+	<!--Top navigation menu -->
 		<div id="topmenu">
 			<ul class="nav">
 				<li><a href="index.html">About</a></li>
@@ -22,7 +23,8 @@
 			</ul>
 		</div>
 	</div>	<!-- End header div -->
-<!-- End header section -->
+	</div> <!-- end headercontainer -->
+	<!-- End header section -->
 
 <!-- Main content area -->
 <div id="middlesection">
@@ -32,16 +34,19 @@
 			<div>
 				<h2>Contact Me</h2>
 			</div>
-			<hr />
-			<div>
+		
+			
+			<div class="profile">
 				<form action="" method="post">
 	  				<label for="name">Name</label><br />
-						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+						<input id="name" class="input" placeholder="John Smith" name="name" type="text" value="" size="30" /><br />
 					<label for="email">Email</label><br />
-						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+						<input id="name" class="input" placeholder="example@gmail.com" name="name" type="text" value="" size="30" /><br />
+					<label for="message">Message</label><br />
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+					<input type="submit" id="mySubmit" value="Submit">
 				</form>
-			</div>
-
+			</div> <!--end profile div -->
 
 		</div> <!-- end pagecontent -->
 	<!--Social and Professional links block -->
@@ -49,14 +54,12 @@
 		
 				<h3>Connect with Me</h3>
 			
-			<hr>
-			<div class="centered">
 				<ul class="socialmenu">
 					<li><a href="https://github.com/dnhart" class="github" alt="GitHub">GitHub</a></li>
 	  				<li><a href="https://www.linkedin.com/in/dnhart" class="linkedin" alt="LinkedIn">LinkedIn</a></li>
 	  				<li><a href="http://stackexchange.com/users/9287023/dann-hart" class="stack" alt="Stack Overflow">Stack Overflow</a></li>
 				</ul>
-			</div><!-- End centered -->
+			
 		</div>	<!--End Social Links Section -->
 	</div><!-- End contentcontainer -->
 </div><!-- End Middle Section -->
