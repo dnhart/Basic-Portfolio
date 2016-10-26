@@ -172,7 +172,7 @@ form {
 	position: relative;
 	float: left;
 	background-color: #ffffff;
-	padding: 40px 40px 50px 40px;
+	padding: 40px 30px 50px 30px;
 	border: solid 1px #cccccc;
 	overflow: auto;
 	min-height: 100%;
@@ -221,20 +221,20 @@ form {
 }
 
 .project {
-	height: 195px;
-	width: 260px;
+	height: 205px;
+	width: 275px;
 	box-sizing: border-box;
 	padding: 0;
 	display: block;
 	overflow: auto;
-	background-size: 260px 195px;
+	background-size: 275px 205px;
 	background-repeat: no-repeat;
 	position: relative;
 }
 
 .projectname {
 	height: 60px;
-	width: 260px;
+	width: 275px;
 	box-sizing: border-box;
 	background-color: #4aaaa5;
 	border: none;
