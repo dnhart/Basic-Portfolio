@@ -194,6 +194,11 @@ form {
 	float: left;
 }
 
+.profile p {
+	text-indent: 25px;
+	margin-bottom: 10px;
+}
+
 .input {
 	width: 100%;
     box-sizing: border-box;
