@@ -172,7 +172,7 @@ form {
 	position: relative;
 	float: left;
 	background-color: #ffffff;
-	padding: 40px 50px 50px 30px;
+	padding: 40px 40px 50px 40px;
 	border: solid 1px #cccccc;
 	overflow: auto;
 	min-height: 100%;
@@ -243,6 +243,10 @@ form {
 	bottom: 10px;
 	text-align: center;
 	padding: 20px 0;
+}
+
+.projectname:hover {
+	opacity: 0.9;
 }
 
 .hangman {
